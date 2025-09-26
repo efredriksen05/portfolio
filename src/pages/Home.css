@@ -1,0 +1,22 @@
+.home{
+    text-align: center;
+    color: #AA1515;
+
+    width:100vw;
+    height:100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: normal;
+
+    background-image: url('/src/assets/background.jpg');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.emma-text {
+  font-family: 'Dancing Script', cursive;
+}
