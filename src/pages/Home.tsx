@@ -4,11 +4,10 @@ function Home() {
   return (
     
     <div className="home text-center relative">
-      <h1 className="text-[160px] font-bold flex justify-center">
+      <img src="src/assets/sparkles_left.png" alt="sparkles" className="absolute left-80 top-44"/>
+      <h1 className="text-[160px] font-extrabold flex justify-center font-montserrat tracking-wide ">
         P
-        {/* Container for O-en */}
         <span className="relative inline-block w-44 align-middle">
-          {/* Sola fyller containeren */}
           <img
             src="src/assets/sun.png"
             alt="sun"
@@ -18,9 +17,10 @@ function Home() {
         RT
       </h1>
 
-      <h1 className="text-[160px] font-bold">FOLIO</h1>
+      <h1 className="text-[160px] font-extrabold font-montserrat tracking-wider">FOLIO</h1>
+      <img src="src/assets/sparkles_right.png" alt="sparkles" className="absolute right-70 top-70" />
 
-      <p className="text-4xl text-white emma-text">Emma Fredriksen</p>
+      <p className="text-[48px] text-white emma-text pl-134 -mt-15 font-bold">Emma Fredriksen</p>
     </div>
   )
 }
