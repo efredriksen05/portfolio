@@ -2,8 +2,8 @@
     text-align: center;
     color: #AA1515;
 
-    width:100vw;
-    height:100vh;
+    width:100%;
+    min-height:100vh;
 
     display: flex;
     flex-direction: column;
@@ -11,7 +11,7 @@
     align-items: center;
     line-height: normal;
 
-    background-image: url('/src/assets/background.jpg');
+    background-image: url('/src/assets/homepage/background.jpg');
     background-size: cover;
     background-position: center;
     
