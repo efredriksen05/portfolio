@@ -1,13 +1,13 @@
 function About() {
   return (
-    <div className="relative pt-20 h-[60rem]">
+    <div className="relative pt-20">
       <img
         src="src/assets/about/silver_stars.png"
         alt="silver stars"
         className="absolute top-0 right-0"
       />
-      <h1 className="title text-right pr-[23%] pt-14">ABOUT ME</h1>
-      <div className="flex items-start gap-8 pl-20">
+      <h1 className="title text-right pr-[21%] pt-1">ABOUT ME</h1>
+      <div className="flex items-start gap-8 pl-25">
         <img
           src="src/assets/about/Tv.png"
           alt="picture of Emma"
