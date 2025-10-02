@@ -13,12 +13,6 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-a {
-  font-weight: 1000;
-  color: #AA1515;
-  text-decoration: inherit;
-}
 a:hover {
   color: #ffc132;
 }
