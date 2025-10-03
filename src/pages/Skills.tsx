@@ -16,25 +16,25 @@ function Skills(){
     { name: "VsCode", icon: "src/assets/skills/vscode.svg" },
   ];
     return(
-        <div className="pl-25 pr-25">
+        <div className="pl-15 md:pl-25 pr-10 md:pr-25">
             <div className="skills text-black pt-28">
-                <h1 className="title text-[4rem]">MY SKILLS</h1>
+                <h1 className="title text-4xl md:text-[4rem]">MY SKILLS</h1>
             </div>
 
-        <div className="flex flex-wrap gap-14 mt-12">
+        <div className="flex flex-wrap gap-5 md:gap-14 mt-12">
         {skills.map((skill) => (
             <div
             key={skill.name}
             className="flex flex-col items-center group"
             >
             <div
-                className="w-32 h-32 rounded-full bg-gray-100 flex items-center justify-center 
+                className="w-20 md:w-32 h-20 md:h-32 rounded-full bg-gray-100 flex items-center justify-center 
                         transition hover:scale-110 shadow-md"
             >
                 <img
                 src={skill.icon}
                 alt={skill.name}
-                className="w-15 h-15 filter grayscale group-hover:grayscale-0 transition duration-300"
+                className="w-10 md:w-15 h-10 md:h-15 filter grayscale group-hover:grayscale-0 transition duration-300"
                 />
             </div>
             <p className="mt-3 text-lg font-medium text-gray-700">{skill.name}</p>

@@ -33,9 +33,9 @@ function Projects() {
   const [activeProject, setActiveProject] = useState<Project | null>(null);
   return (
     <div className="h-[60rem] pt-50 relative">
-      <h1 className="title text-[4rem] text-right pl-25 pr-[22%]">PROJECTS</h1>
+      <h1 className="title text-4xl md:text-[4rem] text-right pl-25 pr-[22%]">PROJECTS</h1>
       
-      <div className="relative w-3xl mt-[-25rem] float-left">
+      <div className="relative w-xs md:w-3xl mt-[-25rem] float-left order-2 md:order-1">
         {/* Frame */}
         <img 
           src="src/assets/project/frame_with_ribbon.png" 
@@ -54,7 +54,7 @@ function Projects() {
       </div>
 
     {/* List of projects*/}
-    <ul className="absolute text-[#702D00] text-3xl/15 font-medium font-kufam right-[13%] top-[35%] space-y-4">
+    <ul className="absolute order-1 md:order-2 text-[#702D00] text-xs md:text-3xl/15 font-medium font-kufam right-[13%] top-[35%] space-y-4">
     {projects.map((project, index) => (
         <li
         key={index}
@@ -66,7 +66,7 @@ function Projects() {
         <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 24 24"
-                        className="w-10 h-10 fill-current cursor-pointer"
+                        className="w-5 md:w-10 h-5 md:h-10 fill-current cursor-pointer"
                         >
                         <path
                             d="M12.2047 0.00001C6.56031 -0.005731 1.74628 4.08615 0.842541 9.6577C-0.061195 15.2293 3.2126 

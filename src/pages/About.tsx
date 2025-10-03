@@ -1,6 +1,6 @@
 function About() {
   return (
-    <div className="relative pt-20 sm:pt-20 px-4 sm:px-8 lg:px-20">
+    <div className="relative pl-10 pt-20 sm:pt-20 px-4 sm:px-8 lg:px-20">
       <img
         src="src/assets/about/silver_stars.png"
         alt="silver stars"

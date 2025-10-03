@@ -15,10 +15,10 @@ function App() {
       <section id="about">
         <About />
       </section>
-      <section id="skills" >
+      <section id="skills" className="relative z-10" >
         <Skills />
       </section>
-      <section id="projects" className="scroll-mt-[-8rem]" >
+      <section id="projects" className="relative scroll-mt-[-8rem] z-0" >
         <Projects />
       </section>
     </>
