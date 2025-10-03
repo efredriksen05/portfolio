@@ -18,7 +18,7 @@ function Skills(){
     return(
         <div className="pl-25 pr-25">
             <div className="skills text-black pt-28">
-                <h1 className="title">MY SKILLS</h1>
+                <h1 className="title text-[4rem]">MY SKILLS</h1>
             </div>
 
         <div className="flex flex-wrap gap-14 mt-12">

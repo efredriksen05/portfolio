@@ -33,7 +33,7 @@ function Projects() {
   const [activeProject, setActiveProject] = useState<Project | null>(null);
   return (
     <div className="h-[60rem] pt-50 relative">
-      <h1 className="title text-right pl-25 pr-[22%]">PROJECTS</h1>
+      <h1 className="title text-[4rem] text-right pl-25 pr-[22%]">PROJECTS</h1>
       
       <div className="relative w-3xl mt-[-25rem] float-left">
         {/* Frame */}

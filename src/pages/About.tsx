@@ -1,19 +1,19 @@
 function About() {
   return (
-    <div className="relative pt-20">
+    <div className="relative pt-20 sm:pt-20 px-4 sm:px-8 lg:px-20">
       <img
         src="src/assets/about/silver_stars.png"
         alt="silver stars"
-        className="absolute top-0 right-0"
+        className="absolute top-0 right-[-2rem] md:right-0 w-36 md:w-auto"
       />
-      <h1 className="title text-right pr-[21%] pt-1">ABOUT ME</h1>
-      <div className="flex items-start gap-8 pl-25">
+      <h1 className="text-4xl md:text-[4rem] title text-left md:text-right pl-5 md:pr-[18%] pt-1">ABOUT ME</h1>
+      <div className="flex flex-col md:flex-row items-start gap-8 pl-6">
         <img
           src="src/assets/about/Tv.png"
           alt="picture of Emma"
-          className="mt-[-3rem]"
+          className="mt-[-3rem] order-2 pt-10 md:order-1"
         />
-        <p className="text-[#702D00] text-xl font-medium leading-relaxed max-w-md pt-6 ">
+        <p className="order-1 md:order-2 text-[#702D00] text-sm md:text-xl font-medium leading-relaxed max-w-md pt-6">
           Hey there! I’m a 20-year-old Computer Science student passionate
           about creating solutions that make a real impact. I especially enjoy
           building projects that are both fun and useful.
@@ -29,6 +29,7 @@ function About() {
           academic projects and personal initiatives.
         </p>
       </div>
+
     </div>
   );
 }
