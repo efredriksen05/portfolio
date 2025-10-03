@@ -5,13 +5,22 @@ import Skills from "./pages/Skills"
 import Projects from "./pages/Projects"
 
 function App() {
+  
   return (
     <>
       <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Projects />
+      <section id="home" >
+        <Home />
+      </section>
+      <section id="about">
+        <About />
+      </section>
+      <section id="skills" >
+        <Skills />
+      </section>
+      <section id="projects" className="scroll-mt-[-8rem]" >
+        <Projects />
+      </section>
     </>
   )
 }
